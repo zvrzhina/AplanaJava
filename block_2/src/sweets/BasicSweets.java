@@ -1,6 +1,9 @@
 package sweets;
 
-public class BasicSweets {
+/**
+ * Абстрактный класс конфет
+ */
+public abstract class BasicSweets {
     private String name;
     private double weight;
     private double cost;
@@ -17,6 +20,12 @@ public class BasicSweets {
         return cost;
     }
 
+    /**
+     * Конструктор абстрактного класса, используется в потомках
+     * @param name - имя сладости
+     * @param weight - вес
+     * @param cost - стоимость
+     */
     BasicSweets(String name, double weight, double cost){
         this.name = name;
         this.weight = weight;
