@@ -96,5 +96,9 @@ public class Test_1 {
         Assert.assertEquals("Введенное значение в поле Комментарии не совпадает", "ййййй", comment.getAttribute("value"));
         //нажать Отправить
         driver.findElement(By.xpath(".//button[contains(@id, 'button-m')]")).click();
+        //Сообщение об ошибке почты
+        Assert.assertEquals("Неверный адрес почты","Введите адрес электронной почты", driver.findElement(By.xpath(".//*[@class='validation-error-text']")).getText());
     }
+
 }
+
