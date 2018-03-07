@@ -1,0 +1,31 @@
+{
+  "hosts" : [ {
+    "title" : "Zavrazka",
+    "threads" : [ {
+      "title" : "9136@Zavrazka.main(1)",
+      "testCases" : [ {
+        "uid" : "57f788876fcf757",
+        "name" : "Поиск телевизора",
+        "title" : "Поиск телевизора",
+        "time" : {
+          "start" : 1520418484173,
+          "stop" : 1520418540934,
+          "duration" : 56761
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fcdc5c6ada6c459e",
+        "name" : "Поиск наушников",
+        "title" : "Поиск наушников",
+        "time" : {
+          "start" : 1520418540936,
+          "stop" : 1520418622821,
+          "duration" : 81885
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

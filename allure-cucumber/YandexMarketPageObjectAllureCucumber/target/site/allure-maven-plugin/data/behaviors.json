@@ -1,0 +1,60 @@
+{
+  "features" : [ {
+    "title" : "Поиск на яндексе",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "51cc74bf66fadcdb",
+      "title" : "Поиск телевизора",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "57f788876fcf757",
+        "name" : "Поиск телевизора",
+        "title" : "Поиск телевизора",
+        "time" : {
+          "start" : 1520418484173,
+          "stop" : 1520418540934,
+          "duration" : 56761
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "706b07884bbe2b89",
+      "title" : "Поиск наушников",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "fcdc5c6ada6c459e",
+        "name" : "Поиск наушников",
+        "title" : "Поиск наушников",
+        "time" : {
+          "start" : 1520418540936,
+          "stop" : 1520418622821,
+          "duration" : 81885
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
