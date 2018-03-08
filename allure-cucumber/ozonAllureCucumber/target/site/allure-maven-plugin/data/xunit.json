@@ -1,0 +1,49 @@
+{
+  "time" : {
+    "start" : 1520511159104,
+    "stop" : 1520511252766,
+    "duration" : 93662
+  },
+  "testSuites" : [ {
+    "uid" : "7487ca57b166add7",
+    "name" : "Проверка функционала корзины",
+    "title" : "Проверка функционала корзины",
+    "time" : {
+      "start" : 1520511159104,
+      "stop" : 1520511252766,
+      "duration" : 93662
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "9da3660a31c7d7d1",
+      "name" : "Добавление и удаление iPhone",
+      "title" : "Добавление и удаление iPhone",
+      "time" : {
+        "start" : 1520511159104,
+        "stop" : 1520511204867,
+        "duration" : 45763
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e4b6a5b4bbe4b527",
+      "name" : "Добавление и удаление Зеркального фотоаппарата",
+      "title" : "Добавление и удаление Зеркального фотоаппарата",
+      "time" : {
+        "start" : 1520511204883,
+        "stop" : 1520511252766,
+        "duration" : 47883
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

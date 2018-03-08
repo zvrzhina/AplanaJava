@@ -1,0 +1,15 @@
+pages\BasePage.class
+utils\TestProperties.class
+steps\AppleSteps.class
+pages\BasketPage.class
+steps\BaseSteps.class
+steps\ScenarioSteps.class
+steps\SubCategorySteps.class
+utils\AllureReporter.class
+steps\BasketSteps.class
+pages\BasicCategoryPage.class
+steps\BasicCategorySteps.class
+steps\PhoneSteps.class
+pages\SubCategoryPage.class
+pages\PhonePage.class
+pages\ApplePage.class

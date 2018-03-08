@@ -1,0 +1,326 @@
+{
+  "uid" : "9da3660a31c7d7d1",
+  "name" : "Добавление и удаление iPhone",
+  "title" : "Добавление и удаление iPhone",
+  "time" : {
+    "start" : 1520511159104,
+    "stop" : 1520511204867,
+    "duration" : 45763
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 18
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "7487ca57b166add7",
+    "name" : "Проверка функционала корзины",
+    "title" : "Проверка функционала корзины"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Электроника\"",
+    "title" : "Когда выбран пункт меню \"Электроника\"",
+    "time" : {
+      "start" : 1520511173379,
+      "stop" : 1520511177590,
+      "duration" : 4211
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMenuItem[Электроника]",
+      "title" : "выбран пункт меню Электроника",
+      "time" : {
+        "start" : 1520511173771,
+        "stop" : 1520511177589,
+        "duration" : 3818
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбрана категория \"Телефоны\"",
+    "title" : "И выбрана категория \"Телефоны\"",
+    "time" : {
+      "start" : 1520511177591,
+      "stop" : 1520511184186,
+      "duration" : 6595
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMenuItem[Телефоны]",
+      "title" : "выбрана категория Телефоны",
+      "time" : {
+        "start" : 1520511177593,
+        "stop" : 1520511184186,
+        "duration" : 6593
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран производитель \"Apple\"",
+    "title" : "И выбран производитель \"Apple\"",
+    "time" : {
+      "start" : 1520511184186,
+      "stop" : 1520511192289,
+      "duration" : 8103
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMenuItem[Apple]",
+      "title" : "выбран производитель Apple",
+      "time" : {
+        "start" : 1520511184187,
+        "stop" : 1520511192289,
+        "duration" : 8102
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И заполнена цена от \"50000\"",
+    "title" : "И заполнена цена от \"50000\"",
+    "time" : {
+      "start" : 1520511192289,
+      "stop" : 1520511195499,
+      "duration" : 3210
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectLeftBorder[50000]",
+      "title" : "заполнена цена от 50000",
+      "time" : {
+        "start" : 1520511192290,
+        "stop" : 1520511195499,
+        "duration" : 3209
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И когда добавлен первый товар в корзину и запомнены название и цена",
+    "title" : "И когда добавлен первый товар в корзину и запомнены название и цена",
+    "time" : {
+      "start" : 1520511195499,
+      "stop" : 1520511198749,
+      "duration" : 3250
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectFirstModel",
+      "title" : "когда добавлен первый товар в корзину и запомнены название и цена",
+      "time" : {
+        "start" : 1520511195500,
+        "stop" : 1520511198748,
+        "duration" : 3248
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И совершен переход в корзину",
+    "title" : "И совершен переход в корзину",
+    "time" : {
+      "start" : 1520511198749,
+      "stop" : 1520511201945,
+      "duration" : 3196
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "goToBasket",
+      "title" : "совершен переход в корзину",
+      "time" : {
+        "start" : 1520511198749,
+        "stop" : 1520511201945,
+        "duration" : 3196
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда проверить наличие добавленного товара в корзине",
+    "title" : "Тогда проверить наличие добавленного товара в корзине",
+    "time" : {
+      "start" : 1520511201945,
+      "stop" : 1520511203796,
+      "duration" : 1851
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkNameAndPrice",
+      "title" : "проверить наличие добавленного товара в корзине",
+      "time" : {
+        "start" : 1520511201947,
+        "stop" : 1520511203796,
+        "duration" : 1849
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда нажата кнопка удалить все",
+    "title" : "Когда нажата кнопка удалить все",
+    "time" : {
+      "start" : 1520511203796,
+      "stop" : 1520511203882,
+      "duration" : 86
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "removeAll",
+      "title" : "нажата кнопка удалить все",
+      "time" : {
+        "start" : 1520511203797,
+        "stop" : 1520511203882,
+        "duration" : 85
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда проверить, что корзина пуста",
+    "title" : "Тогда проверить, что корзина пуста",
+    "time" : {
+      "start" : 1520511203882,
+      "stop" : 1520511203933,
+      "duration" : 51
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "basketIsEmpty",
+      "title" : "проверить, что корзина пуста",
+      "time" : {
+        "start" : 1520511203883,
+        "stop" : 1520511203932,
+        "duration" : 49
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Проверка функционала корзины"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка функционала корзины"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Добавление и удаление iPhone"
+  }, {
+    "name" : "host",
+    "value" : "Zavrazka"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "12616@Zavrazka.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}
