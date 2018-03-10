@@ -11,9 +11,9 @@
         "broken" : 0
       },
       "time" : {
-        "start" : 1520418484173,
-        "stop" : 1520418622821,
-        "duration" : 138648
+        "start" : 1520693358640,
+        "stop" : 1520693490891,
+        "duration" : 132251
       }
     },
     "defects" : {
@@ -23,7 +23,7 @@
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "11489dfeda984621",
+        "uid" : "b9fa288ac2ee00f0",
         "title" : "Поиск на яндексе",
         "statistic" : {
           "total" : 2,

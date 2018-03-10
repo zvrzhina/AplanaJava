@@ -23,7 +23,6 @@ public class AllureReporter extends ru.yandex.qatools.allure.cucumberjvm.AllureR
     }
 
 
-
     public void takeScreenshot(Result step) {
         if (getDriver() != null) {
             Allure.LIFECYCLE.fire(new MakeAttachmentEvent(((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.BYTES),

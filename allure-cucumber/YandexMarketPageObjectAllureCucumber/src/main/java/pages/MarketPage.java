@@ -11,12 +11,6 @@ public class MarketPage extends BasePage {
     @FindBy(xpath = ".//ul[contains(@class, 'topmenu__list')] | .//div[@class='n-navigation-horizontal__inner']")
     WebElement menuItem;
 
-
-
-    public MarketPage(){
-        PageFactory.initElements(BaseSteps.getDriver(), this);
-    }
-
     public void selectMenuItem(String itemName){
         menuItem.findElement(By.xpath(".//a[contains(text(), '" + itemName + "')]")).click();
     }

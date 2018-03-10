@@ -10,7 +10,7 @@
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "9183a961521632f0",
+      "uid" : "c2b830d86319a003",
       "title" : "Добавление и удаление iPhone",
       "statistic" : {
         "total" : 1,
@@ -21,19 +21,19 @@
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "9da3660a31c7d7d1",
+        "uid" : "1207ed467e268baa",
         "name" : "Добавление и удаление iPhone",
         "title" : "Добавление и удаление iPhone",
         "time" : {
-          "start" : 1520511159104,
-          "stop" : 1520511204867,
-          "duration" : 45763
+          "start" : 1520678042874,
+          "stop" : 1520678084646,
+          "duration" : 41772
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       } ]
     }, {
-      "uid" : "1acdba3224effd8a",
+      "uid" : "6b751648116d1156",
       "title" : "Добавление и удаление Зеркального фотоаппарата",
       "statistic" : {
         "total" : 1,
@@ -44,13 +44,13 @@
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "e4b6a5b4bbe4b527",
+        "uid" : "85b214b4e19556f7",
         "name" : "Добавление и удаление Зеркального фотоаппарата",
         "title" : "Добавление и удаление Зеркального фотоаппарата",
         "time" : {
-          "start" : 1520511204883,
-          "stop" : 1520511252766,
-          "duration" : 47883
+          "start" : 1520678084670,
+          "stop" : 1520678128316,
+          "duration" : 43646
         },
         "severity" : "NORMAL",
         "status" : "PASSED"

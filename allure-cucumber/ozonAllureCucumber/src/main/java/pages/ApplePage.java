@@ -4,8 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import steps.BaseSteps;
+
 
 public class ApplePage extends BasePage {
     static String name;
@@ -28,12 +27,6 @@ public class ApplePage extends BasePage {
 
     @FindBy(xpath = ".//div[@class='eSaleBlock_buttons']")
     WebElement basketButton;
-
-
-
-    public ApplePage(){
-        PageFactory.initElements(BaseSteps.getDriver(), this);
-    }
 
     public void selectLeftBorder(String border){
         priceInput.click();

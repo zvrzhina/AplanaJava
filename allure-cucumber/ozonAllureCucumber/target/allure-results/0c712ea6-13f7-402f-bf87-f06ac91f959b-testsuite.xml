@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1520511159083" stop="1520511252774" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1520678042854" stop="1520678128324" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>Проверка функционала корзины</name>
     <description type="text"></description>
     <test-cases>
-        <test-case start="1520511159104" stop="1520511204867" status="passed">
+        <test-case start="1520678042874" stop="1520678084646" status="passed">
             <name>Добавление и удаление iPhone</name>
             <title>Добавление и удаление iPhone</title>
             <description type="text"></description>
             <steps>
-                <step start="1520511173379" stop="1520511177590" status="passed">
+                <step start="1520678051474" stop="1520678058497" status="passed">
                     <name>Когда выбран пункт меню "Электроника"</name>
                     <title>Когда выбран пункт меню "Электроника"</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511173771" stop="1520511177589" status="passed">
+                        <step start="1520678051733" stop="1520678058496" status="passed">
                             <name>selectMenuItem[Электроника]</name>
                             <title>выбран пункт меню Электроника</title>
                             <attachments/>
@@ -21,12 +21,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511177591" stop="1520511184186" status="passed">
+                <step start="1520678058497" stop="1520678064720" status="passed">
                     <name>И выбрана категория "Телефоны"</name>
                     <title>И выбрана категория "Телефоны"</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511177593" stop="1520511184186" status="passed">
+                        <step start="1520678058498" stop="1520678064720" status="passed">
                             <name>selectMenuItem[Телефоны]</name>
                             <title>выбрана категория Телефоны</title>
                             <attachments/>
@@ -34,12 +34,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511184186" stop="1520511192289" status="passed">
+                <step start="1520678064721" stop="1520678072109" status="passed">
                     <name>И выбран производитель "Apple"</name>
                     <title>И выбран производитель "Apple"</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511184187" stop="1520511192289" status="passed">
+                        <step start="1520678064722" stop="1520678072109" status="passed">
                             <name>selectMenuItem[Apple]</name>
                             <title>выбран производитель Apple</title>
                             <attachments/>
@@ -47,12 +47,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511192289" stop="1520511195499" status="passed">
+                <step start="1520678072110" stop="1520678075178" status="passed">
                     <name>И заполнена цена от "50000"</name>
                     <title>И заполнена цена от "50000"</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511192290" stop="1520511195499" status="passed">
+                        <step start="1520678072111" stop="1520678075178" status="passed">
                             <name>selectLeftBorder[50000]</name>
                             <title>заполнена цена от 50000</title>
                             <attachments/>
@@ -60,12 +60,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511195499" stop="1520511198749" status="passed">
+                <step start="1520678075178" stop="1520678078652" status="passed">
                     <name>И когда добавлен первый товар в корзину и запомнены название и цена</name>
                     <title>И когда добавлен первый товар в корзину и запомнены название и цена</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511195500" stop="1520511198748" status="passed">
+                        <step start="1520678075180" stop="1520678078652" status="passed">
                             <name>selectFirstModel</name>
                             <title>когда добавлен первый товар в корзину и запомнены название и цена</title>
                             <attachments/>
@@ -73,12 +73,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511198749" stop="1520511201945" status="passed">
+                <step start="1520678078652" stop="1520678081436" status="passed">
                     <name>И совершен переход в корзину</name>
                     <title>И совершен переход в корзину</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511198749" stop="1520511201945" status="passed">
+                        <step start="1520678078653" stop="1520678081436" status="passed">
                             <name>goToBasket</name>
                             <title>совершен переход в корзину</title>
                             <attachments/>
@@ -86,12 +86,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511201945" stop="1520511203796" status="passed">
+                <step start="1520678081436" stop="1520678083324" status="passed">
                     <name>Тогда проверить наличие добавленного товара в корзине</name>
                     <title>Тогда проверить наличие добавленного товара в корзине</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511201947" stop="1520511203796" status="passed">
+                        <step start="1520678081438" stop="1520678083324" status="passed">
                             <name>checkNameAndPrice</name>
                             <title>проверить наличие добавленного товара в корзине</title>
                             <attachments/>
@@ -99,12 +99,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511203796" stop="1520511203882" status="passed">
+                <step start="1520678083324" stop="1520678083413" status="passed">
                     <name>Когда нажата кнопка удалить все</name>
                     <title>Когда нажата кнопка удалить все</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511203797" stop="1520511203882" status="passed">
+                        <step start="1520678083325" stop="1520678083413" status="passed">
                             <name>removeAll</name>
                             <title>нажата кнопка удалить все</title>
                             <attachments/>
@@ -112,12 +112,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511203882" stop="1520511203933" status="passed">
+                <step start="1520678083413" stop="1520678083718" status="passed">
                     <name>Тогда проверить, что корзина пуста</name>
                     <title>Тогда проверить, что корзина пуста</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511203883" stop="1520511203932" status="passed">
+                        <step start="1520678083414" stop="1520678083717" status="passed">
                             <name>basketIsEmpty</name>
                             <title>проверить, что корзина пуста</title>
                             <attachments/>
@@ -131,21 +131,21 @@
                 <label name="story" value="Добавление и удаление iPhone"/>
                 <label name="feature" value="Проверка функционала корзины"/>
                 <label name="host" value="Zavrazka"/>
-                <label name="thread" value="12616@Zavrazka.main(1)"/>
+                <label name="thread" value="18512@Zavrazka.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
-        <test-case start="1520511204883" stop="1520511252766" status="passed">
+        <test-case start="1520678084670" stop="1520678128316" status="passed">
             <name>Добавление и удаление Зеркального фотоаппарата</name>
             <title>Добавление и удаление Зеркального фотоаппарата</title>
             <description type="text"></description>
             <steps>
-                <step start="1520511213140" stop="1520511219814" status="passed">
+                <step start="1520678091491" stop="1520678097257" status="passed">
                     <name>Когда выбран пункт меню "Электроника"</name>
                     <title>Когда выбран пункт меню "Электроника"</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511213142" stop="1520511219813" status="passed">
+                        <step start="1520678091493" stop="1520678097257" status="passed">
                             <name>selectMenuItem[Электроника]</name>
                             <title>выбран пункт меню Электроника</title>
                             <attachments/>
@@ -153,12 +153,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511219814" stop="1520511227192" status="passed">
+                <step start="1520678097257" stop="1520678104036" status="passed">
                     <name>И выбрана категория "Зеркальные фотоаппараты"</name>
                     <title>И выбрана категория "Зеркальные фотоаппараты"</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511219814" stop="1520511227192" status="passed">
+                        <step start="1520678097258" stop="1520678104036" status="passed">
                             <name>selectMenuItem[Зеркальные фотоаппараты]</name>
                             <title>выбрана категория Зеркальные фотоаппараты</title>
                             <attachments/>
@@ -166,12 +166,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511227192" stop="1520511234040" status="passed">
+                <step start="1520678104036" stop="1520678110550" status="passed">
                     <name>И выбран производитель "Nikon"</name>
                     <title>И выбран производитель "Nikon"</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511227193" stop="1520511234039" status="passed">
+                        <step start="1520678104037" stop="1520678110550" status="passed">
                             <name>selectMenuItem[Nikon]</name>
                             <title>выбран производитель Nikon</title>
                             <attachments/>
@@ -179,12 +179,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511234040" stop="1520511240923" status="passed">
+                <step start="1520678110550" stop="1520678117112" status="passed">
                     <name>И выбран производитель "Canon"</name>
                     <title>И выбран производитель "Canon"</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511234041" stop="1520511240923" status="passed">
+                        <step start="1520678110551" stop="1520678117111" status="passed">
                             <name>selectMenuItem[Canon]</name>
                             <title>выбран производитель Canon</title>
                             <attachments/>
@@ -192,12 +192,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511240923" stop="1520511243899" status="passed">
+                <step start="1520678117112" stop="1520678119692" status="passed">
                     <name>И заполнена цена от "80000"</name>
                     <title>И заполнена цена от "80000"</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511240924" stop="1520511243898" status="passed">
+                        <step start="1520678117113" stop="1520678119692" status="passed">
                             <name>selectLeftBorder[80000]</name>
                             <title>заполнена цена от 80000</title>
                             <attachments/>
@@ -205,12 +205,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511243899" stop="1520511246927" status="passed">
+                <step start="1520678119692" stop="1520678123088" status="passed">
                     <name>И когда добавлен первый товар в корзину и запомнены название и цена</name>
                     <title>И когда добавлен первый товар в корзину и запомнены название и цена</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511243899" stop="1520511246927" status="passed">
+                        <step start="1520678119694" stop="1520678123088" status="passed">
                             <name>selectFirstModel</name>
                             <title>когда добавлен первый товар в корзину и запомнены название и цена</title>
                             <attachments/>
@@ -218,12 +218,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511246928" stop="1520511250370" status="passed">
+                <step start="1520678123088" stop="1520678125898" status="passed">
                     <name>И совершен переход в корзину</name>
                     <title>И совершен переход в корзину</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511246928" stop="1520511250369" status="passed">
+                        <step start="1520678123089" stop="1520678125897" status="passed">
                             <name>goToBasket</name>
                             <title>совершен переход в корзину</title>
                             <attachments/>
@@ -231,12 +231,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511250370" stop="1520511251724" status="passed">
+                <step start="1520678125898" stop="1520678127301" status="passed">
                     <name>Тогда проверить наличие добавленного товара в корзине</name>
                     <title>Тогда проверить наличие добавленного товара в корзине</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511250370" stop="1520511251723" status="passed">
+                        <step start="1520678125899" stop="1520678127301" status="passed">
                             <name>checkNameAndPrice</name>
                             <title>проверить наличие добавленного товара в корзине</title>
                             <attachments/>
@@ -244,12 +244,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511251724" stop="1520511251797" status="passed">
+                <step start="1520678127301" stop="1520678127375" status="passed">
                     <name>Когда нажата кнопка удалить все</name>
                     <title>Когда нажата кнопка удалить все</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511251724" stop="1520511251797" status="passed">
+                        <step start="1520678127302" stop="1520678127375" status="passed">
                             <name>removeAll</name>
                             <title>нажата кнопка удалить все</title>
                             <attachments/>
@@ -257,12 +257,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520511251797" stop="1520511251831" status="passed">
+                <step start="1520678127375" stop="1520678127407" status="passed">
                     <name>Тогда проверить, что корзина пуста</name>
                     <title>Тогда проверить, что корзина пуста</title>
                     <attachments/>
                     <steps>
-                        <step start="1520511251797" stop="1520511251831" status="passed">
+                        <step start="1520678127375" stop="1520678127407" status="passed">
                             <name>basketIsEmpty</name>
                             <title>проверить, что корзина пуста</title>
                             <attachments/>
@@ -276,7 +276,7 @@
                 <label name="story" value="Добавление и удаление Зеркального фотоаппарата"/>
                 <label name="feature" value="Проверка функционала корзины"/>
                 <label name="host" value="Zavrazka"/>
-                <label name="thread" value="12616@Zavrazka.main(1)"/>
+                <label name="thread" value="18512@Zavrazka.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>

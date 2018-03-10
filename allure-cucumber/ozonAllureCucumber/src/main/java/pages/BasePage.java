@@ -5,8 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import steps.BaseSteps;
 
 
@@ -14,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BasePage {
 
-    @FindBy(xpath = ".//div[@class='bDYbanner_subscription']")
+    @FindBy(xpath = ".//div[@class='bDYbanner_subscription']//div[contains(@class, 'close-icon')]")
     WebElement banner;
 
     WebDriver driver = BaseSteps.getDriver();
@@ -31,15 +29,10 @@ public class BasePage {
     public void bannerIsDisplayed() throws org.openqa.selenium.NoSuchElementException{
         try {
             driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
-            banner.findElement(By.xpath(".//div[contains(@class, 'close-icon')]")).click();
+            banner.click();
         } catch (org.openqa.selenium.NoSuchElementException e) {
             System.out.println("Баннер не обнаружен");
         }
-    }
-
-    public void waitUntilElementIsVisible (WebElement el){
-        WebDriverWait wait = new WebDriverWait(BaseSteps.getDriver(), 10); //необходимо настроить ожидание пока подгрузится окно
-        wait.until(ExpectedConditions.visibilityOf(el));
     }
 
 }

@@ -12,10 +12,6 @@ public class SearchResultByNamePage extends BasePage {
     @FindBy(xpath = ".//div[@class='n-product-title__text-container']//h1")
     public WebElement actualTitle;
 
-    public SearchResultByNamePage(){
-        PageFactory.initElements(BaseSteps.getDriver(), this);
-    }
-
     public void checkTitles(){
         try {
             Assert.assertEquals("Найдет не тот объект", FilterResultPage.firstResultName, actualTitle.getText());

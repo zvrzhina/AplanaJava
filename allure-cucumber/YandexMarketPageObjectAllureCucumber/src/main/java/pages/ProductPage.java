@@ -11,10 +11,6 @@ public class ProductPage extends BasePage {
     @FindBy(xpath = ".//div[@class='n-filter-panel-aside__show-more']/a")
     public WebElement advancedSearchButton;
 
-    public ProductPage(){
-        PageFactory.initElements(BaseSteps.getDriver(), this);
-    }
-
     public void selectAdvancedPage(){
         advancedSearchButton.click();
     }

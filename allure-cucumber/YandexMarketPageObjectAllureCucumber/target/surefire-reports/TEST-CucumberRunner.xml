@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="139.832" tests="23" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="133.347" tests="22" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
     <property name="java.vm.version" value="25.144-b01"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Aplana\Aplana\YandexMarketPageObjectAllureCucumber"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Aplana\AplanaJava\allure-cucumber\YandexMarketPageObjectAllureCucumber"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Aplana\Aplana\YandexMarketPageObjectAllureCucumber"/>
+    <property name="user.dir" value="D:\Aplana\AplanaJava\allure-cucumber\YandexMarketPageObjectAllureCucumber"/>
     <property name="java.runtime.version" value="1.8.0_144-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
@@ -62,27 +62,26 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Когда выбран пункт меню &quot;Маркет&quot;" classname="Сценарий: Поиск телевизора" time="0.002"/>
-  <testcase name="И выбран раздел общих категорий &quot;Электроника&quot;" classname="Сценарий: Поиск телевизора" time="0"/>
-  <testcase name="И выбран раздел &quot;Телевизоры&quot;" classname="Сценарий: Поиск телевизора" time="0"/>
-  <testcase name="Тогда зайти в расширенный поиск" classname="Сценарий: Поиск телевизора" time="0"/>
-  <testcase name="Когда задан параметр поиска от &quot;20000&quot;" classname="Сценарий: Поиск телевизора" time="0"/>
-  <testcase name="И выбран производитель &quot;Samsung&quot;" classname="Сценарий: Поиск телевизора" time="0"/>
-  <testcase name="И выбран производитель &quot;LG&quot;" classname="Сценарий: Поиск телевизора" time="0"/>
-  <testcase name="Тогда нажать кнопку Применить" classname="Сценарий: Поиск телевизора" time="0"/>
-  <testcase name="Дано количество элементов на странице равно &quot;48&quot;" classname="Сценарий: Поиск телевизора" time="0"/>
-  <testcase name="Когда запомнен первый элемент списка" classname="Сценарий: Поиск телевизора" time="0"/>
-  <testcase name="Тогда наименование товара соответствует запомненному значению" classname="Сценарий: Поиск телевизора" time="0"/>
-  <testcase name="Сценарий: Поиск телевизора" classname="Сценарий: Поиск телевизора" time="0.888"/>
-  <testcase name="Когда выбран пункт меню &quot;Маркет&quot;" classname="Сценарий: Поиск наушников" time="0"/>
-  <testcase name="И выбран раздел общих категорий &quot;Электроника&quot;" classname="Сценарий: Поиск наушников" time="0"/>
-  <testcase name="И выбран раздел &quot;Наушники&quot;" classname="Сценарий: Поиск наушников" time="0"/>
-  <testcase name="Тогда зайти в расширенный поиск" classname="Сценарий: Поиск наушников" time="0"/>
-  <testcase name="Когда задан параметр поиска от &quot;5000&quot;" classname="Сценарий: Поиск наушников" time="0"/>
-  <testcase name="И выбран производитель &quot;Beats&quot;" classname="Сценарий: Поиск наушников" time="0"/>
-  <testcase name="Тогда нажать кнопку Применить" classname="Сценарий: Поиск наушников" time="0"/>
-  <testcase name="Дано количество элементов на странице равно &quot;21&quot;" classname="Сценарий: Поиск наушников" time="0"/>
-  <testcase name="Когда запомнен первый элемент списка" classname="Сценарий: Поиск наушников" time="0"/>
-  <testcase name="Тогда наименование товара соответствует запомненному значению" classname="Сценарий: Поиск наушников" time="0"/>
-  <testcase name="Сценарий: Поиск наушников" classname="Сценарий: Поиск наушников" time="0.865"/>
+  <testcase name="Когда выбран пункт меню Маркет" classname="| Маркет | Электроника | Наушники | 5000 | Beats | 21 |" time="0.002"/>
+  <testcase name="И выбрана общая категория Электроника" classname="| Маркет | Электроника | Наушники | 5000 | Beats | 21 |" time="0"/>
+  <testcase name="И выбран раздел Наушники" classname="| Маркет | Электроника | Наушники | 5000 | Beats | 21 |" time="0"/>
+  <testcase name="Тогда зайти в расширенный поиск" classname="| Маркет | Электроника | Наушники | 5000 | Beats | 21 |" time="0"/>
+  <testcase name="Когда задан параметр поиска от 5000" classname="| Маркет | Электроника | Наушники | 5000 | Beats | 21 |" time="0"/>
+  <testcase name="И выбран производитель Beats" classname="| Маркет | Электроника | Наушники | 5000 | Beats | 21 |" time="0"/>
+  <testcase name="Тогда нажать кнопку Применить" classname="| Маркет | Электроника | Наушники | 5000 | Beats | 21 |" time="0"/>
+  <testcase name="Дано количество элементов на странице равно 21" classname="| Маркет | Электроника | Наушники | 5000 | Beats | 21 |" time="0.001"/>
+  <testcase name="Когда запомнен первый элемент списка" classname="| Маркет | Электроника | Наушники | 5000 | Beats | 21 |" time="0"/>
+  <testcase name="Тогда наименование товара соответствует запомненному значению" classname="| Маркет | Электроника | Наушники | 5000 | Beats | 21 |" time="0"/>
+  <testcase name="| Маркет | Электроника | Наушники | 5000 | Beats | 21 |" classname="| Маркет | Электроника | Наушники | 5000 | Beats | 21 |" time="0.921"/>
+  <testcase name="Когда выбран пункт меню Маркет" classname="| Маркет | Электроника | Телевизоры | 20000 | Samsung | 48 |" time="0"/>
+  <testcase name="И выбрана общая категория Электроника" classname="| Маркет | Электроника | Телевизоры | 20000 | Samsung | 48 |" time="0"/>
+  <testcase name="И выбран раздел Телевизоры" classname="| Маркет | Электроника | Телевизоры | 20000 | Samsung | 48 |" time="0"/>
+  <testcase name="Тогда зайти в расширенный поиск" classname="| Маркет | Электроника | Телевизоры | 20000 | Samsung | 48 |" time="0"/>
+  <testcase name="Когда задан параметр поиска от 20000" classname="| Маркет | Электроника | Телевизоры | 20000 | Samsung | 48 |" time="0"/>
+  <testcase name="И выбран производитель Samsung" classname="| Маркет | Электроника | Телевизоры | 20000 | Samsung | 48 |" time="0"/>
+  <testcase name="Тогда нажать кнопку Применить" classname="| Маркет | Электроника | Телевизоры | 20000 | Samsung | 48 |" time="0"/>
+  <testcase name="Дано количество элементов на странице равно 48" classname="| Маркет | Электроника | Телевизоры | 20000 | Samsung | 48 |" time="0"/>
+  <testcase name="Когда запомнен первый элемент списка" classname="| Маркет | Электроника | Телевизоры | 20000 | Samsung | 48 |" time="0"/>
+  <testcase name="Тогда наименование товара соответствует запомненному значению" classname="| Маркет | Электроника | Телевизоры | 20000 | Samsung | 48 |" time="0"/>
+  <testcase name="| Маркет | Электроника | Телевизоры | 20000 | Samsung | 48 |" classname="| Маркет | Электроника | Телевизоры | 20000 | Samsung | 48 |" time="0.846"/>
 </testsuite>

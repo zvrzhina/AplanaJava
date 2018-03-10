@@ -11,9 +11,9 @@
         "broken" : 0
       },
       "time" : {
-        "start" : 1520511159104,
-        "stop" : 1520511252766,
-        "duration" : 93662
+        "start" : 1520678042874,
+        "stop" : 1520678128316,
+        "duration" : 85442
       }
     },
     "defects" : {
@@ -23,7 +23,7 @@
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "7487ca57b166add7",
+        "uid" : "b392b3de7b9eaae2",
         "title" : "Проверка функционала корзины",
         "statistic" : {
           "total" : 2,

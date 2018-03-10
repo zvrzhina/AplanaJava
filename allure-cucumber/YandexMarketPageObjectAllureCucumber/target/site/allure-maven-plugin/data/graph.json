@@ -1,23 +1,23 @@
 {
   "testCases" : [ {
-    "uid" : "57f788876fcf757",
-    "name" : "Поиск телевизора",
-    "title" : "Поиск телевизора",
+    "uid" : "f7432bb7d45f4159",
+    "name" : "Поиск товара",
+    "title" : "Поиск товара",
     "time" : {
-      "start" : 1520418484173,
-      "stop" : 1520418540934,
-      "duration" : 56761
+      "start" : 1520693358640,
+      "stop" : 1520693469500,
+      "duration" : 110860
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "fcdc5c6ada6c459e",
-    "name" : "Поиск наушников",
-    "title" : "Поиск наушников",
+    "uid" : "9e640ff6df48bc69",
+    "name" : "Поиск товара",
+    "title" : "Поиск товара",
     "time" : {
-      "start" : 1520418540936,
-      "stop" : 1520418622821,
-      "duration" : 81885
+      "start" : 1520693469500,
+      "stop" : 1520693490891,
+      "duration" : 21391
     },
     "severity" : "NORMAL",
     "status" : "PASSED"

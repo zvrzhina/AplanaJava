@@ -1,15 +1,15 @@
 {
-  "uid" : "9da3660a31c7d7d1",
-  "name" : "Добавление и удаление iPhone",
-  "title" : "Добавление и удаление iPhone",
+  "uid" : "85b214b4e19556f7",
+  "name" : "Добавление и удаление Зеркального фотоаппарата",
+  "title" : "Добавление и удаление Зеркального фотоаппарата",
   "time" : {
-    "start" : 1520511159104,
-    "stop" : 1520511204867,
-    "duration" : 45763
+    "start" : 1520678084670,
+    "stop" : 1520678128316,
+    "duration" : 43646
   },
   "summary" : {
     "attachments" : 0,
-    "steps" : 18
+    "steps" : 20
   },
   "failure" : null,
   "description" : {
@@ -19,7 +19,7 @@
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "7487ca57b166add7",
+    "uid" : "b392b3de7b9eaae2",
     "name" : "Проверка функционала корзины",
     "title" : "Проверка функционала корзины"
   },
@@ -27,9 +27,9 @@
     "name" : "Когда выбран пункт меню \"Электроника\"",
     "title" : "Когда выбран пункт меню \"Электроника\"",
     "time" : {
-      "start" : 1520511173379,
-      "stop" : 1520511177590,
-      "duration" : 4211
+      "start" : 1520678091491,
+      "stop" : 1520678097257,
+      "duration" : 5766
     },
     "summary" : {
       "attachments" : 0,
@@ -41,9 +41,9 @@
       "name" : "selectMenuItem[Электроника]",
       "title" : "выбран пункт меню Электроника",
       "time" : {
-        "start" : 1520511173771,
-        "stop" : 1520511177589,
-        "duration" : 3818
+        "start" : 1520678091493,
+        "stop" : 1520678097257,
+        "duration" : 5764
       },
       "summary" : {
         "attachments" : 0,
@@ -54,12 +54,12 @@
       "steps" : [ ]
     } ]
   }, {
-    "name" : "И выбрана категория \"Телефоны\"",
-    "title" : "И выбрана категория \"Телефоны\"",
+    "name" : "И выбрана категория \"Зеркальные фотоаппараты\"",
+    "title" : "И выбрана категория \"Зеркальные фотоаппараты\"",
     "time" : {
-      "start" : 1520511177591,
-      "stop" : 1520511184186,
-      "duration" : 6595
+      "start" : 1520678097257,
+      "stop" : 1520678104036,
+      "duration" : 6779
     },
     "summary" : {
       "attachments" : 0,
@@ -68,12 +68,12 @@
     "status" : "PASSED",
     "attachments" : [ ],
     "steps" : [ {
-      "name" : "selectMenuItem[Телефоны]",
-      "title" : "выбрана категория Телефоны",
+      "name" : "selectMenuItem[Зеркальные фотоаппараты]",
+      "title" : "выбрана категория Зеркальные фотоаппараты",
       "time" : {
-        "start" : 1520511177593,
-        "stop" : 1520511184186,
-        "duration" : 6593
+        "start" : 1520678097258,
+        "stop" : 1520678104036,
+        "duration" : 6778
       },
       "summary" : {
         "attachments" : 0,
@@ -84,12 +84,12 @@
       "steps" : [ ]
     } ]
   }, {
-    "name" : "И выбран производитель \"Apple\"",
-    "title" : "И выбран производитель \"Apple\"",
+    "name" : "И выбран производитель \"Nikon\"",
+    "title" : "И выбран производитель \"Nikon\"",
     "time" : {
-      "start" : 1520511184186,
-      "stop" : 1520511192289,
-      "duration" : 8103
+      "start" : 1520678104036,
+      "stop" : 1520678110550,
+      "duration" : 6514
     },
     "summary" : {
       "attachments" : 0,
@@ -98,12 +98,12 @@
     "status" : "PASSED",
     "attachments" : [ ],
     "steps" : [ {
-      "name" : "selectMenuItem[Apple]",
-      "title" : "выбран производитель Apple",
+      "name" : "selectMenuItem[Nikon]",
+      "title" : "выбран производитель Nikon",
       "time" : {
-        "start" : 1520511184187,
-        "stop" : 1520511192289,
-        "duration" : 8102
+        "start" : 1520678104037,
+        "stop" : 1520678110550,
+        "duration" : 6513
       },
       "summary" : {
         "attachments" : 0,
@@ -114,12 +114,12 @@
       "steps" : [ ]
     } ]
   }, {
-    "name" : "И заполнена цена от \"50000\"",
-    "title" : "И заполнена цена от \"50000\"",
+    "name" : "И выбран производитель \"Canon\"",
+    "title" : "И выбран производитель \"Canon\"",
     "time" : {
-      "start" : 1520511192289,
-      "stop" : 1520511195499,
-      "duration" : 3210
+      "start" : 1520678110550,
+      "stop" : 1520678117112,
+      "duration" : 6562
     },
     "summary" : {
       "attachments" : 0,
@@ -128,12 +128,42 @@
     "status" : "PASSED",
     "attachments" : [ ],
     "steps" : [ {
-      "name" : "selectLeftBorder[50000]",
-      "title" : "заполнена цена от 50000",
+      "name" : "selectMenuItem[Canon]",
+      "title" : "выбран производитель Canon",
       "time" : {
-        "start" : 1520511192290,
-        "stop" : 1520511195499,
-        "duration" : 3209
+        "start" : 1520678110551,
+        "stop" : 1520678117111,
+        "duration" : 6560
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И заполнена цена от \"80000\"",
+    "title" : "И заполнена цена от \"80000\"",
+    "time" : {
+      "start" : 1520678117112,
+      "stop" : 1520678119692,
+      "duration" : 2580
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectLeftBorder[80000]",
+      "title" : "заполнена цена от 80000",
+      "time" : {
+        "start" : 1520678117113,
+        "stop" : 1520678119692,
+        "duration" : 2579
       },
       "summary" : {
         "attachments" : 0,
@@ -147,9 +177,9 @@
     "name" : "И когда добавлен первый товар в корзину и запомнены название и цена",
     "title" : "И когда добавлен первый товар в корзину и запомнены название и цена",
     "time" : {
-      "start" : 1520511195499,
-      "stop" : 1520511198749,
-      "duration" : 3250
+      "start" : 1520678119692,
+      "stop" : 1520678123088,
+      "duration" : 3396
     },
     "summary" : {
       "attachments" : 0,
@@ -161,9 +191,9 @@
       "name" : "selectFirstModel",
       "title" : "когда добавлен первый товар в корзину и запомнены название и цена",
       "time" : {
-        "start" : 1520511195500,
-        "stop" : 1520511198748,
-        "duration" : 3248
+        "start" : 1520678119694,
+        "stop" : 1520678123088,
+        "duration" : 3394
       },
       "summary" : {
         "attachments" : 0,
@@ -177,9 +207,9 @@
     "name" : "И совершен переход в корзину",
     "title" : "И совершен переход в корзину",
     "time" : {
-      "start" : 1520511198749,
-      "stop" : 1520511201945,
-      "duration" : 3196
+      "start" : 1520678123088,
+      "stop" : 1520678125898,
+      "duration" : 2810
     },
     "summary" : {
       "attachments" : 0,
@@ -191,9 +221,9 @@
       "name" : "goToBasket",
       "title" : "совершен переход в корзину",
       "time" : {
-        "start" : 1520511198749,
-        "stop" : 1520511201945,
-        "duration" : 3196
+        "start" : 1520678123089,
+        "stop" : 1520678125897,
+        "duration" : 2808
       },
       "summary" : {
         "attachments" : 0,
@@ -207,9 +237,9 @@
     "name" : "Тогда проверить наличие добавленного товара в корзине",
     "title" : "Тогда проверить наличие добавленного товара в корзине",
     "time" : {
-      "start" : 1520511201945,
-      "stop" : 1520511203796,
-      "duration" : 1851
+      "start" : 1520678125898,
+      "stop" : 1520678127301,
+      "duration" : 1403
     },
     "summary" : {
       "attachments" : 0,
@@ -221,9 +251,9 @@
       "name" : "checkNameAndPrice",
       "title" : "проверить наличие добавленного товара в корзине",
       "time" : {
-        "start" : 1520511201947,
-        "stop" : 1520511203796,
-        "duration" : 1849
+        "start" : 1520678125899,
+        "stop" : 1520678127301,
+        "duration" : 1402
       },
       "summary" : {
         "attachments" : 0,
@@ -237,9 +267,9 @@
     "name" : "Когда нажата кнопка удалить все",
     "title" : "Когда нажата кнопка удалить все",
     "time" : {
-      "start" : 1520511203796,
-      "stop" : 1520511203882,
-      "duration" : 86
+      "start" : 1520678127301,
+      "stop" : 1520678127375,
+      "duration" : 74
     },
     "summary" : {
       "attachments" : 0,
@@ -251,9 +281,9 @@
       "name" : "removeAll",
       "title" : "нажата кнопка удалить все",
       "time" : {
-        "start" : 1520511203797,
-        "stop" : 1520511203882,
-        "duration" : 85
+        "start" : 1520678127302,
+        "stop" : 1520678127375,
+        "duration" : 73
       },
       "summary" : {
         "attachments" : 0,
@@ -267,9 +297,9 @@
     "name" : "Тогда проверить, что корзина пуста",
     "title" : "Тогда проверить, что корзина пуста",
     "time" : {
-      "start" : 1520511203882,
-      "stop" : 1520511203933,
-      "duration" : 51
+      "start" : 1520678127375,
+      "stop" : 1520678127407,
+      "duration" : 32
     },
     "summary" : {
       "attachments" : 0,
@@ -281,9 +311,9 @@
       "name" : "basketIsEmpty",
       "title" : "проверить, что корзина пуста",
       "time" : {
-        "start" : 1520511203883,
-        "stop" : 1520511203932,
-        "duration" : 49
+        "start" : 1520678127375,
+        "stop" : 1520678127407,
+        "duration" : 32
       },
       "summary" : {
         "attachments" : 0,
@@ -307,8 +337,8 @@
     "name" : "language",
     "value" : "JAVA"
   }, {
-    "name" : "story",
-    "value" : "Добавление и удаление iPhone"
+    "name" : "thread",
+    "value" : "18512@Zavrazka.main(1)"
   }, {
     "name" : "host",
     "value" : "Zavrazka"
@@ -316,8 +346,8 @@
     "name" : "suite-title",
     "value" : null
   }, {
-    "name" : "thread",
-    "value" : "12616@Zavrazka.main(1)"
+    "name" : "story",
+    "value" : "Добавление и удаление Зеркального фотоаппарата"
   }, {
     "name" : "framework",
     "value" : "CucumberJVM"

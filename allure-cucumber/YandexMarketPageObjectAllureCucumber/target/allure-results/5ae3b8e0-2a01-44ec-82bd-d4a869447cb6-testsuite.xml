@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1520418484154" stop="1520418622829" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1520693358625" stop="1520693490891" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>Поиск на яндексе</name>
     <description type="text"></description>
     <test-cases>
-        <test-case start="1520418484173" stop="1520418540934" status="passed">
-            <name>Поиск телевизора</name>
-            <title>Поиск телевизора</title>
+        <test-case start="1520693358640" stop="1520693469500" status="passed">
+            <name>Поиск товара</name>
+            <title>Поиск товара</title>
             <description type="text"></description>
             <steps>
-                <step start="1520418490223" stop="1520418492531" status="passed">
-                    <name>Когда выбран пункт меню "Маркет"</name>
-                    <title>Когда выбран пункт меню "Маркет"</title>
+                <step start="1520693364627" stop="1520693369355" status="passed">
+                    <name>Когда выбран пункт меню Маркет</name>
+                    <title>Когда выбран пункт меню Маркет</title>
                     <attachments/>
                     <steps>
-                        <step start="1520418490461" stop="1520418492530" status="passed">
+                        <step start="1520693364912" stop="1520693369354" status="passed">
                             <name>selectMenuItem[Маркет]</name>
                             <title>выбран пункт меню Маркет</title>
                             <attachments/>
@@ -21,196 +21,38 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520418492531" stop="1520418494779" status="passed">
-                    <name>И выбран раздел общих категорий "Электроника"</name>
-                    <title>И выбран раздел общих категорий "Электроника"</title>
+                <step start="1520693369356" stop="1520693371869" status="passed">
+                    <name>И выбрана общая категория Электроника</name>
+                    <title>И выбрана общая категория Электроника</title>
                     <attachments/>
                     <steps>
-                        <step start="1520418492532" stop="1520418494779" status="passed">
+                        <step start="1520693369357" stop="1520693371868" status="passed">
                             <name>selectMenuItem[Электроника]</name>
-                            <title>выбран раздел Электроника</title>
+                            <title>выбрана общая категория Электроника</title>
                             <attachments/>
                             <steps/>
                         </step>
                     </steps>
                 </step>
-                <step start="1520418494779" stop="1520418511381" status="passed">
-                    <name>И выбран раздел "Телевизоры"</name>
-                    <title>И выбран раздел "Телевизоры"</title>
+                <step start="1520693371869" stop="1520693375106" status="passed">
+                    <name>И выбран раздел Наушники</name>
+                    <title>И выбран раздел Наушники</title>
                     <attachments/>
                     <steps>
-                        <step start="1520418494780" stop="1520418511380" status="passed">
-                            <name>selectMenuItem[Телевизоры]</name>
-                            <title>выбран пункт меню Телевизоры</title>
-                            <attachments/>
-                            <steps/>
-                        </step>
-                    </steps>
-                </step>
-                <step start="1520418511381" stop="1520418513516" status="passed">
-                    <name>Тогда зайти в расширенный поиск</name>
-                    <title>Тогда зайти в расширенный поиск</title>
-                    <attachments/>
-                    <steps>
-                        <step start="1520418511382" stop="1520418513515" status="passed">
-                            <name>selectMenuItem</name>
-                            <title>зайти в расширенный поиск</title>
-                            <attachments/>
-                            <steps/>
-                        </step>
-                    </steps>
-                </step>
-                <step start="1520418513516" stop="1520418513763" status="passed">
-                    <name>Когда задан параметр поиска от "20000"</name>
-                    <title>Когда задан параметр поиска от "20000"</title>
-                    <attachments/>
-                    <steps>
-                        <step start="1520418513516" stop="1520418513763" status="passed">
-                            <name>selectPriceBounds[20000]</name>
-                            <title>задан параметр поиска от 20000</title>
-                            <attachments/>
-                            <steps/>
-                        </step>
-                    </steps>
-                </step>
-                <step start="1520418513763" stop="1520418513907" status="passed">
-                    <name>И выбран производитель "Samsung"</name>
-                    <title>И выбран производитель "Samsung"</title>
-                    <attachments/>
-                    <steps>
-                        <step start="1520418513764" stop="1520418513906" status="passed">
-                            <name>setManufacturer[Samsung]</name>
-                            <title>выбран производитель Samsung</title>
-                            <attachments/>
-                            <steps/>
-                        </step>
-                    </steps>
-                </step>
-                <step start="1520418513907" stop="1520418514051" status="passed">
-                    <name>И выбран производитель "LG"</name>
-                    <title>И выбран производитель "LG"</title>
-                    <attachments/>
-                    <steps>
-                        <step start="1520418513908" stop="1520418514051" status="passed">
-                            <name>setManufacturer[LG]</name>
-                            <title>выбран производитель LG</title>
-                            <attachments/>
-                            <steps/>
-                        </step>
-                    </steps>
-                </step>
-                <step start="1520418514051" stop="1520418536791" status="passed">
-                    <name>Тогда нажать кнопку Применить</name>
-                    <title>Тогда нажать кнопку Применить</title>
-                    <attachments/>
-                    <steps>
-                        <step start="1520418514052" stop="1520418536791" status="passed">
-                            <name>pushAccept</name>
-                            <title>нажать кнопку Применить</title>
-                            <attachments/>
-                            <steps/>
-                        </step>
-                    </steps>
-                </step>
-                <step start="1520418536791" stop="1520418536872" status="passed">
-                    <name>Дано количество элементов на странице равно "48"</name>
-                    <title>Дано количество элементов на странице равно "48"</title>
-                    <attachments/>
-                    <steps>
-                        <step start="1520418536793" stop="1520418536871" status="passed">
-                            <name>checkElementsNumber[48]</name>
-                            <title>количество элементов на странице равно 48</title>
-                            <attachments/>
-                            <steps/>
-                        </step>
-                    </steps>
-                </step>
-                <step start="1520418536872" stop="1520418539992" status="passed">
-                    <name>Когда запомнен первый элемент списка</name>
-                    <title>Когда запомнен первый элемент списка</title>
-                    <attachments/>
-                    <steps>
-                        <step start="1520418536872" stop="1520418539992" status="passed">
-                            <name>searchingModel</name>
-                            <title>запомнен первый элемент списка</title>
-                            <attachments/>
-                            <steps/>
-                        </step>
-                    </steps>
-                </step>
-                <step start="1520418539992" stop="1520418540047" status="passed">
-                    <name>Тогда наименование товара соответствует запомненному значению</name>
-                    <title>Тогда наименование товара соответствует запомненному значению</title>
-                    <attachments/>
-                    <steps>
-                        <step start="1520418539992" stop="1520418540047" status="passed">
-                            <name>checkTitles</name>
-                            <title>наименование товара соответствует запомненному значению</title>
-                            <attachments/>
-                            <steps/>
-                        </step>
-                    </steps>
-                </step>
-            </steps>
-            <attachments/>
-            <labels>
-                <label name="story" value="Поиск телевизора"/>
-                <label name="feature" value="Поиск на яндексе"/>
-                <label name="host" value="Zavrazka"/>
-                <label name="thread" value="9136@Zavrazka.main(1)"/>
-                <label name="framework" value="CucumberJVM"/>
-            </labels>
-        </test-case>
-        <test-case start="1520418540936" stop="1520418622821" status="passed">
-            <name>Поиск наушников</name>
-            <title>Поиск наушников</title>
-            <description type="text"></description>
-            <steps>
-                <step start="1520418545390" stop="1520418547582" status="passed">
-                    <name>Когда выбран пункт меню "Маркет"</name>
-                    <title>Когда выбран пункт меню "Маркет"</title>
-                    <attachments/>
-                    <steps>
-                        <step start="1520418545391" stop="1520418547582" status="passed">
-                            <name>selectMenuItem[Маркет]</name>
-                            <title>выбран пункт меню Маркет</title>
-                            <attachments/>
-                            <steps/>
-                        </step>
-                    </steps>
-                </step>
-                <step start="1520418547583" stop="1520418549916" status="passed">
-                    <name>И выбран раздел общих категорий "Электроника"</name>
-                    <title>И выбран раздел общих категорий "Электроника"</title>
-                    <attachments/>
-                    <steps>
-                        <step start="1520418547584" stop="1520418549916" status="passed">
-                            <name>selectMenuItem[Электроника]</name>
-                            <title>выбран раздел Электроника</title>
-                            <attachments/>
-                            <steps/>
-                        </step>
-                    </steps>
-                </step>
-                <step start="1520418549917" stop="1520418553207" status="passed">
-                    <name>И выбран раздел "Наушники"</name>
-                    <title>И выбран раздел "Наушники"</title>
-                    <attachments/>
-                    <steps>
-                        <step start="1520418549917" stop="1520418553207" status="passed">
+                        <step start="1520693371871" stop="1520693375106" status="passed">
                             <name>selectMenuItem[Наушники]</name>
-                            <title>выбран пункт меню Наушники</title>
+                            <title>выбран раздел Наушники</title>
                             <attachments/>
                             <steps/>
                         </step>
                     </steps>
                 </step>
-                <step start="1520418553207" stop="1520418555562" status="passed">
+                <step start="1520693375106" stop="1520693377889" status="passed">
                     <name>Тогда зайти в расширенный поиск</name>
                     <title>Тогда зайти в расширенный поиск</title>
                     <attachments/>
                     <steps>
-                        <step start="1520418553207" stop="1520418555561" status="passed">
+                        <step start="1520693375107" stop="1520693377888" status="passed">
                             <name>selectMenuItem</name>
                             <title>зайти в расширенный поиск</title>
                             <attachments/>
@@ -218,12 +60,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520418555563" stop="1520418555858" status="passed">
-                    <name>Когда задан параметр поиска от "5000"</name>
-                    <title>Когда задан параметр поиска от "5000"</title>
+                <step start="1520693377889" stop="1520693383168" status="passed">
+                    <name>Когда задан параметр поиска от 5000</name>
+                    <title>Когда задан параметр поиска от 5000</title>
                     <attachments/>
                     <steps>
-                        <step start="1520418555564" stop="1520418555858" status="passed">
+                        <step start="1520693377890" stop="1520693383168" status="passed">
                             <name>selectPriceBounds[5000]</name>
                             <title>задан параметр поиска от 5000</title>
                             <attachments/>
@@ -231,12 +73,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520418555859" stop="1520418555993" status="passed">
-                    <name>И выбран производитель "Beats"</name>
-                    <title>И выбран производитель "Beats"</title>
+                <step start="1520693383168" stop="1520693388383" status="passed">
+                    <name>И выбран производитель Beats</name>
+                    <title>И выбран производитель Beats</title>
                     <attachments/>
                     <steps>
-                        <step start="1520418555859" stop="1520418555993" status="passed">
+                        <step start="1520693383170" stop="1520693388382" status="passed">
                             <name>setManufacturer[Beats]</name>
                             <title>выбран производитель Beats</title>
                             <attachments/>
@@ -244,12 +86,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520418555993" stop="1520418558050" status="passed">
+                <step start="1520693388383" stop="1520693395350" status="passed">
                     <name>Тогда нажать кнопку Применить</name>
                     <title>Тогда нажать кнопку Применить</title>
                     <attachments/>
                     <steps>
-                        <step start="1520418555994" stop="1520418558050" status="passed">
+                        <step start="1520693388383" stop="1520693395350" status="passed">
                             <name>pushAccept</name>
                             <title>нажать кнопку Применить</title>
                             <attachments/>
@@ -257,12 +99,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520418558050" stop="1520418558179" status="passed">
-                    <name>Дано количество элементов на странице равно "21"</name>
-                    <title>Дано количество элементов на странице равно "21"</title>
+                <step start="1520693395350" stop="1520693395395" status="passed">
+                    <name>Дано количество элементов на странице равно 21</name>
+                    <title>Дано количество элементов на странице равно 21</title>
                     <attachments/>
                     <steps>
-                        <step start="1520418558052" stop="1520418558179" status="passed">
+                        <step start="1520693395353" stop="1520693395395" status="passed">
                             <name>checkElementsNumber[21]</name>
                             <title>количество элементов на странице равно 21</title>
                             <attachments/>
@@ -270,12 +112,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520418558179" stop="1520418561918" status="passed">
+                <step start="1520693395396" stop="1520693408525" status="passed">
                     <name>Когда запомнен первый элемент списка</name>
                     <title>Когда запомнен первый элемент списка</title>
                     <attachments/>
                     <steps>
-                        <step start="1520418558180" stop="1520418561917" status="passed">
+                        <step start="1520693395396" stop="1520693408525" status="passed">
                             <name>searchingModel</name>
                             <title>запомнен первый элемент списка</title>
                             <attachments/>
@@ -283,12 +125,12 @@
                         </step>
                     </steps>
                 </step>
-                <step start="1520418561918" stop="1520418621958" status="passed">
+                <step start="1520693408525" stop="1520693468579" status="passed">
                     <name>Тогда наименование товара соответствует запомненному значению</name>
                     <title>Тогда наименование товара соответствует запомненному значению</title>
                     <attachments/>
                     <steps>
-                        <step start="1520418561918" stop="1520418621958" status="passed">
+                        <step start="1520693408526" stop="1520693468579" status="passed">
                             <name>checkTitles</name>
                             <title>наименование товара соответствует запомненному значению</title>
                             <attachments/>
@@ -299,10 +141,155 @@
             </steps>
             <attachments/>
             <labels>
-                <label name="story" value="Поиск наушников"/>
+                <label name="story" value="Поиск товара"/>
                 <label name="feature" value="Поиск на яндексе"/>
                 <label name="host" value="Zavrazka"/>
-                <label name="thread" value="9136@Zavrazka.main(1)"/>
+                <label name="thread" value="2132@Zavrazka.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1520693469500" stop="1520693490891" status="passed">
+            <name>Поиск товара</name>
+            <title>Поиск товара</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1520693473877" stop="1520693475894" status="passed">
+                    <name>Когда выбран пункт меню Маркет</name>
+                    <title>Когда выбран пункт меню Маркет</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1520693473878" stop="1520693475894" status="passed">
+                            <name>selectMenuItem[Маркет]</name>
+                            <title>выбран пункт меню Маркет</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1520693475894" stop="1520693478081" status="passed">
+                    <name>И выбрана общая категория Электроника</name>
+                    <title>И выбрана общая категория Электроника</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1520693475895" stop="1520693478081" status="passed">
+                            <name>selectMenuItem[Электроника]</name>
+                            <title>выбрана общая категория Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1520693478081" stop="1520693481014" status="passed">
+                    <name>И выбран раздел Телевизоры</name>
+                    <title>И выбран раздел Телевизоры</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1520693478081" stop="1520693481014" status="passed">
+                            <name>selectMenuItem[Телевизоры]</name>
+                            <title>выбран раздел Телевизоры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1520693481014" stop="1520693483770" status="passed">
+                    <name>Тогда зайти в расширенный поиск</name>
+                    <title>Тогда зайти в расширенный поиск</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1520693481015" stop="1520693483769" status="passed">
+                            <name>selectMenuItem</name>
+                            <title>зайти в расширенный поиск</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1520693483770" stop="1520693484024" status="passed">
+                    <name>Когда задан параметр поиска от 20000</name>
+                    <title>Когда задан параметр поиска от 20000</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1520693483771" stop="1520693484024" status="passed">
+                            <name>selectPriceBounds[20000]</name>
+                            <title>задан параметр поиска от 20000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1520693484024" stop="1520693484152" status="passed">
+                    <name>И выбран производитель Samsung</name>
+                    <title>И выбран производитель Samsung</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1520693484025" stop="1520693484152" status="passed">
+                            <name>setManufacturer[Samsung]</name>
+                            <title>выбран производитель Samsung</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1520693484152" stop="1520693486770" status="passed">
+                    <name>Тогда нажать кнопку Применить</name>
+                    <title>Тогда нажать кнопку Применить</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1520693484153" stop="1520693486770" status="passed">
+                            <name>pushAccept</name>
+                            <title>нажать кнопку Применить</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1520693486770" stop="1520693486802" status="passed">
+                    <name>Дано количество элементов на странице равно 48</name>
+                    <title>Дано количество элементов на странице равно 48</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1520693486771" stop="1520693486802" status="passed">
+                            <name>checkElementsNumber[48]</name>
+                            <title>количество элементов на странице равно 48</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1520693486803" stop="1520693489926" status="passed">
+                    <name>Когда запомнен первый элемент списка</name>
+                    <title>Когда запомнен первый элемент списка</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1520693486803" stop="1520693489926" status="passed">
+                            <name>searchingModel</name>
+                            <title>запомнен первый элемент списка</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1520693489926" stop="1520693490045" status="passed">
+                    <name>Тогда наименование товара соответствует запомненному значению</name>
+                    <title>Тогда наименование товара соответствует запомненному значению</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1520693489927" stop="1520693490044" status="passed">
+                            <name>checkTitles</name>
+                            <title>наименование товара соответствует запомненному значению</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Поиск товара"/>
+                <label name="feature" value="Поиск на яндексе"/>
+                <label name="host" value="Zavrazka"/>
+                <label name="thread" value="2132@Zavrazka.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>

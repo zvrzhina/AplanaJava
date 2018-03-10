@@ -8,7 +8,6 @@ public class FilterResultSteps {
     @Step("количество элементов на странице равно {0}")
     public void checkElementsNumber(int expectedNumber){
         FilterResultPage filter = new FilterResultPage();
-        filter.checkObjectType();
         filter.checkElementsNumber(expectedNumber);
     }
 
